@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<script>
+    function calAdd(){
+        var x = document.getElementById("x").value;
+        var y = document.getElementById("y").value;
+        var result = parseInt(x) + parseInt(y);
+        document.getElementById('result').innerHTML = result;
+
+    }
+</script>
+
+
+<input type="text" id="x" value=""/>
++
+<input type="text" id="y" value="" />
+<input type="button" value="=" onclick="calAdd()"/>
+<span id="result"></span>
