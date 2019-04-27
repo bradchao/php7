@@ -3,7 +3,18 @@ $x = $y = $result = '';
 if (isset($_GET['x'])){
     $x = $_GET['x'];
     $y = $_GET['y'];
-    $result = $x + $y;
+    $op = $_GET['op'];
+
+    if ($op == 1){
+        $result = $x + $y;
+    }elseif ($op == 2){
+
+    }elseif ($op == 3){
+
+    }elseif ($op == 4){
+        // 商...餘數
+    }
+
 }
 ?>
 <form action="brad11.php" method="get">
