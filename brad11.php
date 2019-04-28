@@ -8,11 +8,14 @@ if (isset($_GET['x'])){
     if ($op == 1){
         $result = $x + $y;
     }elseif ($op == 2){
-
+        $result = $x - $y;
     }elseif ($op == 3){
-
+        $result = $x * $y;
     }elseif ($op == 4){
         // 商...餘數
+        $r1 = (int)($x / $y);
+        $r2 = $x % $y;
+        $result = "{$r1} ...... {$r2}";
     }
 
 }
