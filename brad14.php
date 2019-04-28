@@ -1,19 +1,20 @@
 <?php
-    $a = 10; $b = 8;
+    $a = 11; $b = 8;
     switch ($a){
         case 1:
             echo 'A';
             break;
+        default:
+            echo 'Z';
+            break;
         case $b + 2:
             echo 'B3';
-            break;
+            //break;
         case 10:
             echo 'B2';
-            break;
+            //break;
         case 100:
             echo 'C';
             break;
-        default:
-            echo 'Z';
     }
     echo '<br>Game Over';
