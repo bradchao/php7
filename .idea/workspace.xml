@@ -88,8 +88,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pokerv4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="464">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+              <folding>
+                <element signature="e#18#25#1" expanded="true" />
+                <element signature="e#18#25#1" expanded="true" />
+                <element signature="e#674#681#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +226,7 @@
       <updated>1556333564766</updated>
       <workItem from="1556333566666" duration="19215000" />
       <workItem from="1556414032558" duration="24000000" />
-      <workItem from="1556931122707" duration="1146000" />
+      <workItem from="1556931122707" duration="3185000" />
     </task>
     <task id="LOCAL-00001" summary="201904271200">
       <created>1556337637718</created>
@@ -356,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556442308676</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="201905040917">
+      <created>1556932658850</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1556932658850</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44361000" />
+    <option name="totallyTimeSpent" value="46400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -411,7 +423,8 @@
     <MESSAGE value="201904281421" />
     <MESSAGE value="201904281604" />
     <MESSAGE value="201904281700" />
-    <option name="LAST_COMMIT_MESSAGE" value="201904281700" />
+    <MESSAGE value="201905040917" />
+    <option name="LAST_COMMIT_MESSAGE" value="201905040917" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/brad02.php">
@@ -619,8 +632,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pokerv4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="464">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="e#18#25#1" expanded="true" />
+            <element signature="e#18#25#1" expanded="true" />
+            <element signature="e#674#681#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
