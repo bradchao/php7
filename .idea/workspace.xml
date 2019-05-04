@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c62f468-3231-4745-9038-1d15e88952dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/brad26.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokerv2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokerv4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokerv4.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokerv4.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/brad20.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="7" />
+              <caret line="3" column="7" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -64,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/pokerv1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -90,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pokerv4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="608">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -222,7 +220,8 @@
       <option name="presentableId" value="Default" />
       <updated>1556333564766</updated>
       <workItem from="1556333566666" duration="19215000" />
-      <workItem from="1556414032558" duration="23456000" />
+      <workItem from="1556414032558" duration="24000000" />
+      <workItem from="1556931122707" duration="1146000" />
     </task>
     <task id="LOCAL-00001" summary="201904271200">
       <created>1556337637718</created>
@@ -350,17 +349,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556438666325</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="201904281700">
+      <created>1556442308676</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1556442308676</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42671000" />
+    <option name="totallyTimeSpent" value="44361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,7 +410,8 @@
     <MESSAGE value="201904281208" />
     <MESSAGE value="201904281421" />
     <MESSAGE value="201904281604" />
-    <option name="LAST_COMMIT_MESSAGE" value="201904281604" />
+    <MESSAGE value="201904281700" />
+    <option name="LAST_COMMIT_MESSAGE" value="201904281700" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/brad02.php">
@@ -550,7 +557,7 @@
     <entry file="file://$PROJECT_DIR$/brad20.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="7" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -558,13 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brad23.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -592,7 +592,7 @@
     <entry file="file://$PROJECT_DIR$/pokerv1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -610,10 +610,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/brad23.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pokerv4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="608">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
