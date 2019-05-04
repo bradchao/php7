@@ -1,4 +1,27 @@
 <?php
+    function createAnswer($n = 3){
+        $temp = range(0,9); // $temp[0] = 0,
+        shuffle($temp);
+        $ret = '';
+        for ($i=0; $i<$n; $i++){
+            $ret .= $temp[$i];
+        }
+        return $ret;
+    }
+
+    function checkAB($guess, $answer){
+        $A = $B = 0;
+        for ($i = 0 ; $i<strlen($guess); $i++){
+            if (substr($answer, $i, 1) == substr($guess, $i, 1)){
+                $A++;
+            }elseif (strpos($answer, substr($guess, $i, 1)) !== false ){
+                $B++;
+            }
+        }
+
+        return "{$A}A{$B}B";
+    }
+
     function isTWId($id) {
         $ret = false;
         if (preg_match("/^[A-Z][12][0-9]{8}$/", $id)){
@@ -24,5 +47,18 @@
         return $ret;
     }
 
+    function createTWId($isMale = true) {
+        $letters = 'ABCDEFGHJKLMNPQRSTUVXYWZIO';
+        $id = substr($letters, rand(0,25),1);
+        $id .= $isMale?'1':'2';
+        for ($i =0; $i<7; $i++) $id .= rand(0,9);
 
+        for ($i=0; $i<=9; $i++){
+            if (isTWId($id . $i)){
+                $id .= $i;
+                break;
+            }
+        }
+        return $id;
+    }
 ?>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c62f468-3231-4745-9038-1d15e88952dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gnum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bradutil.php" beforeDir="false" afterPath="$PROJECT_DIR$/bradutil.php" afterDir="false" />
     </list>
@@ -62,20 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bradutil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="580">
+              <caret line="20" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brad04.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gnum.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="406">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -161,6 +162,7 @@
         <option value="$PROJECT_DIR$/brad32.php" />
         <option value="$PROJECT_DIR$/brad33.php" />
         <option value="$PROJECT_DIR$/bradutil.php" />
+        <option value="$PROJECT_DIR$/gnum.php" />
       </list>
     </option>
   </component>
@@ -233,7 +235,7 @@
       <updated>1556333564766</updated>
       <workItem from="1556333566666" duration="19215000" />
       <workItem from="1556414032558" duration="24000000" />
-      <workItem from="1556931122707" duration="14797000" />
+      <workItem from="1556931122707" duration="19575000" />
     </task>
     <task id="LOCAL-00001" summary="201904271200">
       <created>1556337637718</created>
@@ -417,11 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556949724680</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="201905041415">
+      <created>1556950515505</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556950515505</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58012000" />
+    <option name="totallyTimeSpent" value="62790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -453,7 +462,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="201904271322" />
     <MESSAGE value="201904271413" />
     <MESSAGE value="201904271535" />
     <MESSAGE value="201904271555" />
@@ -478,7 +486,8 @@
     <MESSAGE value="201905041028" />
     <MESSAGE value="201905041200" />
     <MESSAGE value="201905041401" />
-    <option name="LAST_COMMIT_MESSAGE" value="201905041401" />
+    <MESSAGE value="201905041415" />
+    <option name="LAST_COMMIT_MESSAGE" value="201905041415" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/brad02.php">
@@ -746,8 +755,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bradutil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="580">
+          <caret line="20" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
