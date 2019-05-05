@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c62f468-3231-4745-9038-1d15e88952dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/brad51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brad52.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ALGER.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brad53.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/w.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brad44.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brad45.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brad49.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="232">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -82,13 +72,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brad52.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="406">
+              <caret line="14" selection-start-line="1" selection-end-line="14" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brad53.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/newimg.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -116,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/brad09.php" />
         <option value="$PROJECT_DIR$/brad10.php" />
         <option value="$PROJECT_DIR$/brad12.php" />
         <option value="$PROJECT_DIR$/brad11.php" />
@@ -167,6 +170,7 @@
         <option value="$PROJECT_DIR$/brad50.html" />
         <option value="$PROJECT_DIR$/brad51.html" />
         <option value="$PROJECT_DIR$/brad52.php" />
+        <option value="$PROJECT_DIR$/brad53.php" />
       </list>
     </option>
   </component>
@@ -222,13 +226,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/upload" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MAMP\htdocs\fonts" />
       <recent name="C:\MAMP\htdocs\upload" />
+      <recent name="C:\MAMP\htdocs\fonts" />
       <recent name="C:\MAMP\htdocs" />
     </key>
   </component>
@@ -257,7 +261,7 @@
       <workItem from="1556333566666" duration="19215000" />
       <workItem from="1556414032558" duration="24000000" />
       <workItem from="1556931122707" duration="24826000" />
-      <workItem from="1557017685487" duration="20699000" />
+      <workItem from="1557017685487" duration="22704000" />
     </task>
     <task id="LOCAL-00001" summary="201904271200">
       <created>1556337637718</created>
@@ -483,11 +487,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557041010235</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="201905051559">
+      <created>1557043194711</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1557043194711</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88740000" />
+    <option name="totallyTimeSpent" value="90745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -519,7 +530,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="201904271658" />
     <MESSAGE value="201904280920" />
     <MESSAGE value="201904280927" />
     <MESSAGE value="201904281020" />
@@ -544,23 +554,10 @@
     <MESSAGE value="201905051200" />
     <MESSAGE value="201905051508" />
     <MESSAGE value="201905051523" />
-    <option name="LAST_COMMIT_MESSAGE" value="201905051523" />
+    <MESSAGE value="201905051559" />
+    <option name="LAST_COMMIT_MESSAGE" value="201905051559" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brad16.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brad17.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brad99.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -875,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brad49.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/coffee.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -892,10 +882,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/upload/newimg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brad49.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brad52.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="406">
+          <caret line="14" selection-start-line="1" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brad53.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
