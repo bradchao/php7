@@ -1,26 +1,31 @@
 <?php
-$dstW = 320; $dstH = 320;
-$src = imagecreatefromjpeg("upload/w.jpg");
-$dst = imagecreate($dstW, $dstH);
-
+$dstW = 240; $dstH = 240;
+$src = imagecreatefromjpeg("upload/h.jpg");
 $srcW = imagesx($src); $srcH = imagesy($src);
 
 if ($srcW > $srcH){
     $dstX = $dstW;
-    $dstY = ?
+    $dstY = $dstH * $srcH / $srcW;
 }else{
     $dstY = $dstH;
-    $dstX = ?
+    $dstX = $dstW * $srcW / $srcH;
 }
 
+$dst = imagecreate($dstX, $dstY);
 
 
-imagecopyresized ( $dst, $src, 0 , 0 , 0 , 0 ,
+
+//echo "{$srcW} x {$srcH}<br>";
+//echo "{$dstX} x {$dstY}<br>";
+
+//imagecopyresized ( $dst, $src, 0 , 0 , 0 , 0 ,
+//    $dstX , $dstY ,$srcW , $srcH ) ;
+imagecopyresampled ( $dst, $src, 0 , 0 , 0 , 0 ,
     $dstX , $dstY ,$srcW , $srcH ) ;
 
 //// 3. display
 //header("Content-type: image/jpeg");
-//imagejpeg($dst);
+imagejpeg($dst, "upload/hhh.jpg");
 
 // 4. free
 imageDestroy($src);
