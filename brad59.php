@@ -16,5 +16,6 @@
 
     $affectedRows = $stmt->affected_rows;
     echo $affectedRows;
+    
 
 ?>
