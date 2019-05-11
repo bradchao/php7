@@ -1,4 +1,19 @@
 <?php
+    class Student {
+        private $ch, $eng, $math;
+        function __construct($ch, $eng, $math){
+            $this->ch = $ch;
+            $this->eng = $eng;
+            $this->math = $math;
+        }
+        function calSum(){
+            return $this->ch + $this->eng+ $this->math;
+        }
+        function calAvg(){
+            return $this->calSum() / 3;
+        }
+    }
+
     function createAnswer($n = 3){
         $temp = range(0,9); // $temp[0] = 0,
         shuffle($temp);
