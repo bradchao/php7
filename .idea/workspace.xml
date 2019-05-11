@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c62f468-3231-4745-9038-1d15e88952dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/brad60.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brad59.php" beforeDir="false" afterPath="$PROJECT_DIR$/brad59.php" afterDir="false" />
     </list>
@@ -49,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brad59.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="203">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brad60.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -110,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/brad18.php" />
         <option value="$PROJECT_DIR$/brad19.php" />
         <option value="$PROJECT_DIR$/brad20.php" />
         <option value="$PROJECT_DIR$/brad21.php" />
@@ -161,6 +170,7 @@
         <option value="$PROJECT_DIR$/brad57.php" />
         <option value="$PROJECT_DIR$/brad58.php" />
         <option value="$PROJECT_DIR$/brad59.php" />
+        <option value="$PROJECT_DIR$/brad60.php" />
       </list>
     </option>
   </component>
@@ -201,15 +211,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs" />
       <recent name="C:\MAMP\htdocs\views" />
       <recent name="C:\MAMP\htdocs\upload" />
       <recent name="C:\MAMP\htdocs\fonts" />
-      <recent name="C:\MAMP\htdocs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,7 +248,7 @@
       <workItem from="1556414032558" duration="24000000" />
       <workItem from="1556931122707" duration="24826000" />
       <workItem from="1557017685487" duration="24441000" />
-      <workItem from="1557536122870" duration="17300000" />
+      <workItem from="1557536122870" duration="18304000" />
     </task>
     <task id="LOCAL-00001" summary="201904271200">
       <created>1556337637718</created>
@@ -506,11 +516,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557561886077</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="201905111601">
+      <created>1557561906038</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1557561906038</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109782000" />
+    <option name="totallyTimeSpent" value="110786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -542,7 +559,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="201904281138" />
     <MESSAGE value="201904281145" />
     <MESSAGE value="201904281208" />
     <MESSAGE value="201904281421" />
@@ -567,16 +583,10 @@
     <MESSAGE value="201905111021" />
     <MESSAGE value="201905111337" />
     <MESSAGE value="201905111600" />
-    <option name="LAST_COMMIT_MESSAGE" value="201905111600" />
+    <MESSAGE value="201905111601" />
+    <option name="LAST_COMMIT_MESSAGE" value="201905111601" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brad04.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brad27.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -905,8 +915,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brad59.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="203">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brad60.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@
     //echo $mysqli->connect_errno . ":" . $mysqli->connect_error;
     $mysqli->set_charset('utf8');
 
-    $cname = 'Brad';
+    $cname = '布萊德';
     $birthday = '1998-03-04';
     $memo = 'abcdefg';
 
@@ -16,6 +16,6 @@
 
     $affectedRows = $stmt->affected_rows;
     echo $affectedRows;
-    
+
 
 ?>
