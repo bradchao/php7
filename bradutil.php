@@ -12,6 +12,9 @@
         function calAvg(){
             return $this->calSum() / 3;
         }
+        function changeCH($newch){
+            $this->ch = $newch;
+        }
     }
 
     function createAnswer($n = 3){

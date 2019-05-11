@@ -11,8 +11,12 @@
     $s1 = new Student(90,50,30);
     echo $s1->calSum() . '<br>';
     echo $s1->calAvg() . '<br>';
-
     $_SESSION['s1'] = $s1;
+
+    echo '<hr>';
+    $s1->changeCH(10);
+    echo $s1->calSum() . '<br>';
+    echo $s1->calAvg() . '<br>';
 
 
 

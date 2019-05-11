@@ -2,11 +2,10 @@
     include 'bradutil.php';
     session_start();
 
-    $ary = $_SESSION['var'];
-    echo gettype($ary);
-    foreach ($ary as $k => $v){
-        echo "{$k} : {$v}<br>";
+    foreach ($_SESSION as $k => $v){
+        echo "{$k} :" . gettype($v) . '<br>';
     }
+
 
 
     $s1 = $_SESSION['s1'];
@@ -14,3 +13,4 @@
     echo $s1->calSum();
 
 ?>
+<a href="brad58.php">Logout</a>
