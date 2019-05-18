@@ -1,5 +1,6 @@
 <?php
     include_once 'sql.php';
+    include_once 'myconfig.php';
     spl_autoload_register(function ($class_name){
         require_once $class_name . '.php';
     });
@@ -26,7 +27,7 @@
     $data = $result->fetch_object();
     $total = $data->sum;
 
-    $page = 1; $rpp = 4;
+    $page = 1; $rpp = RPP;
     if (isset($_GET['page'])){
         $page = $_GET['page'];
     }
