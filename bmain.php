@@ -1,6 +1,8 @@
 <?php
     include_once 'sql.php';
-    include_once 'Product.php';
+    spl_autoload_register(function ($class_name){
+        require_once $class_name . '.php';
+    });
 
     $sql = "SELECT * FROM product";
     $result = $mysqli->query($sql);

@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c62f468-3231-4745-9038-1d15e88952dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyClass1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyClass2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brad62.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addProduct.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/Member.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmain.php" beforeDir="false" afterPath="$PROJECT_DIR$/bmain.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,35 +44,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bmain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="174">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/brad62.php">
+        <entry file="file://$PROJECT_DIR$/addProduct.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyClass1.php">
+        <entry file="file://$PROJECT_DIR$/brad62.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyClass2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="29">
+              <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -126,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/brad31.php" />
         <option value="$PROJECT_DIR$/brad32.php" />
         <option value="$PROJECT_DIR$/brad33.php" />
         <option value="$PROJECT_DIR$/gnum.php" />
@@ -173,10 +157,11 @@
         <option value="$PROJECT_DIR$/checkAccount.php" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/Product.php" />
-        <option value="$PROJECT_DIR$/bmain.php" />
         <option value="$PROJECT_DIR$/MyClass1.php" />
         <option value="$PROJECT_DIR$/MyClass2.php" />
         <option value="$PROJECT_DIR$/brad62.php" />
+        <option value="$PROJECT_DIR$/bmain.php" />
+        <option value="$PROJECT_DIR$/addProduct.php" />
       </list>
     </option>
   </component>
@@ -255,7 +240,7 @@
       <workItem from="1556931122707" duration="24826000" />
       <workItem from="1557017685487" duration="24441000" />
       <workItem from="1557536122870" duration="21089000" />
-      <workItem from="1558140112220" duration="12106000" />
+      <workItem from="1558140112220" duration="12802000" />
     </task>
     <task id="LOCAL-00001" summary="201904271200">
       <created>1556337637718</created>
@@ -579,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558150198989</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="2019051805">
+      <created>1558156882035</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1558156882035</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125677000" />
+    <option name="totallyTimeSpent" value="126373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -615,7 +607,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="201905041011" />
     <MESSAGE value="201905041017" />
     <MESSAGE value="201905041028" />
     <MESSAGE value="201905041200" />
@@ -640,12 +631,10 @@
     <MESSAGE value="2019051802" />
     <MESSAGE value="2019051803" />
     <MESSAGE value="2019051804" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019051804" />
+    <MESSAGE value="2019051805" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019051805" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mydir/file1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/brad37.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -955,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bmain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyClass1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -978,8 +960,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brad62.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
