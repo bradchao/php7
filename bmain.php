@@ -21,8 +21,19 @@
 
     }
 
+    $sql = 'select count(*) as `sum` from product';
+    $result = $mysqli->query($sql);
+    $data = $result->fetch_object();
+    $total = $data->sum;
 
-    $sql = "SELECT * FROM product";
+    $page = 1; $rpp = 4;
+    if (isset($_GET['page'])){
+        $page = $_GET['page'];
+    }
+    $start = ($page - 1) * $rpp;
+
+
+    $sql = "SELECT * FROM product LIMIT {$start}, {$rpp}";
     $result = $mysqli->query($sql);
 
 
