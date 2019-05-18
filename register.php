@@ -2,14 +2,19 @@
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (xhttp.readyState == 4 && xhttp.status == 200){
-            document.getElementById('mesg').innerHTML = xhttp.responseText;
+            if (xhttp.responseText != 0){
+                document.getElementById('mesg').innerHTML = '帳號已被使用';
+            }else{
+                document.getElementById('mesg').innerHTML = '帳號可以使用';
+            }
+
         }
     } 
 
     function isNewAccount() {
         var account = document.getElementById('account').value;
 
-        xhttp.open("GET", "isNewAccount.php", true);
+        xhttp.open("GET", "isNewAccount.php?account=" + account, true);
         xhttp.send();
     }
 
