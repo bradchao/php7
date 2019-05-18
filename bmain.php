@@ -31,11 +31,30 @@
     function confirmDelete(pname) {
         return confirm('Delete ' + pname + "?");
     }
+
+    function changeColor() {
+        var type = document.getElementById('seltype').selectedIndex;
+        if (type == 0){
+            document.getElementById("id_2").style.backgroundColor = 'yellow';
+        }else if(type == 1){
+            document.getElementById("id_2").style.backgroundColor = 'orange';
+        }else if(type == 2){
+            document.getElementById("id_2").style.backgroundColor = 'pink';
+        }
+    }
+
 </script>
 
 <a href="addProduct.php">Add New Product</a>
 <hr />
 Product List:<br />
+
+<select id="seltype" onchange="changeColor()">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+
 <table border="1" width="100%">
     <tr>
         <th>id</th>
@@ -47,7 +66,7 @@ Product List:<br />
 
     <?php
         while ( $product = $result->fetch_object("Product") ){
-            echo '<tr>';
+            echo "<tr id='id_{$product->id}'>";
             echo "<td>{$product->id}</td>";
             echo "<td><a href='showPImage.php?id={$product->id}'>{$product->pname}</a></td>";
             echo "<td>{$product->price}</td>";
@@ -55,7 +74,7 @@ Product List:<br />
 
             echo '<td>';
             echo "<a href='?delid={$product->id}' onclick='return confirmDelete(\"{$product->pname}\");'>Del</a>";
-            echo " | Update";
+            echo " | <a href='editProduct.php?editid={$product->id}'>Update";
             echo " | <a href='?cloneid={$product->id}'>Copy</a>";
             echo '</td>';
 
