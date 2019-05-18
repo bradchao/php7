@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c62f468-3231-4745-9038-1d15e88952dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/editProduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bmain.php" beforeDir="false" afterPath="$PROJECT_DIR$/bmain.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bmain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" selection-start-line="2" selection-end-line="5" />
+            <state relative-caret-position="2131">
+              <caret line="100" column="79" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="608">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -151,8 +149,8 @@
         <option value="$PROJECT_DIR$/brad62.php" />
         <option value="$PROJECT_DIR$/addProduct.php" />
         <option value="$PROJECT_DIR$/showPImage.php" />
-        <option value="$PROJECT_DIR$/bmain.php" />
         <option value="$PROJECT_DIR$/editProduct.php" />
+        <option value="$PROJECT_DIR$/bmain.php" />
       </list>
     </option>
   </component>
@@ -236,21 +234,7 @@
       <workItem from="1556931122707" duration="24826000" />
       <workItem from="1557017685487" duration="24441000" />
       <workItem from="1557536122870" duration="21089000" />
-      <workItem from="1558140112220" duration="20422000" />
-    </task>
-    <task id="LOCAL-00003" summary="201904271413">
-      <created>1556345644252</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1556345644252</updated>
-    </task>
-    <task id="LOCAL-00004" summary="201904271535">
-      <created>1556350548109</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1556350548109</updated>
+      <workItem from="1558140112220" duration="22027000" />
     </task>
     <task id="LOCAL-00005" summary="201904271555">
       <created>1556351657975</created>
@@ -581,11 +565,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558161687510</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="2019051810">
+      <created>1558165172251</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1558165172251</updated>
+    </task>
+    <task id="LOCAL-00053" summary="2019051811">
+      <created>1558166190691</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1558166190691</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133993000" />
+    <option name="totallyTimeSpent" value="135598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -617,8 +615,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="201905041415" />
-    <MESSAGE value="201905041537" />
     <MESSAGE value="201905041700" />
     <MESSAGE value="201905051200" />
     <MESSAGE value="201905051508" />
@@ -642,7 +638,9 @@
     <MESSAGE value="2019051807" />
     <MESSAGE value="2019051808" />
     <MESSAGE value="2019051809" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019051809" />
+    <MESSAGE value="2019051810" />
+    <MESSAGE value="2019051811" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019051811" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/brad38.php">
@@ -961,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bmain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" selection-start-line="2" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -984,8 +975,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editProduct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="608">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2131">
+          <caret line="100" column="79" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
         </state>
       </provider>
     </entry>

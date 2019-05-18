@@ -32,6 +32,10 @@
     }
     $start = ($page - 1) * $rpp;
 
+    $totalpage = ceil($total / $rpp);
+    $prev = $page == 1? 1 : $page -1;
+    $next = $page == $totalpage ? $page : $page+1;
+
 
     $sql = "SELECT * FROM product LIMIT {$start}, {$rpp}";
     $result = $mysqli->query($sql);
@@ -93,3 +97,5 @@ Product List:<br />
         }
     ?>
 </table>
+
+<a href="?page=<?php echo $prev; ?>">Prev</a> | <a href="?page=<?php echo $next; ?>">Next</a>
