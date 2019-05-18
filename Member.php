@@ -10,5 +10,8 @@ class Member {
         $this->$name = $value;
     }
 
+    public function sayHello(){
+        return "Hello, {$this->name}";
+    }
 }
 ?>

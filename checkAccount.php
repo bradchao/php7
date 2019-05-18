@@ -14,18 +14,14 @@
     $result = $stmt->get_result();
     if ($result->num_rows > 0){
         $member = $result->fetch_object("Member");
-        //echo $member->id . '<br />';
-        //echo $member->account . '<br />';
-        //echo $member->passwd . '<br />';
-        //echo $member->name . '<br />';
-
-
-
+        if (password_verify($passwd, $member->passwd)){
+            $_SESSION['member'] = $member;
+            header('Location: main.php');
+        }else{
+            header('Location: login.php');
+        }
 
     }else{
-        // acccount not exist!
+        header('Location: login.php');
     }
-
-
-
 ?>
