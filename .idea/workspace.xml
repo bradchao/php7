@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c62f468-3231-4745-9038-1d15e88952dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showPImage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/addProduct.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bmain.php" beforeDir="false" afterPath="$PROJECT_DIR$/bmain.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,29 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bmain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addProduct.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="638">
+              <caret line="46" column="86" selection-start-line="46" selection-start-column="86" selection-end-line="46" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brad62.php">
+        <entry file="file://$PROJECT_DIR$/addProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="492">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -111,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/brad32.php" />
         <option value="$PROJECT_DIR$/brad33.php" />
         <option value="$PROJECT_DIR$/gnum.php" />
         <option value="$PROJECT_DIR$/brad34.php" />
@@ -160,8 +151,9 @@
         <option value="$PROJECT_DIR$/MyClass1.php" />
         <option value="$PROJECT_DIR$/MyClass2.php" />
         <option value="$PROJECT_DIR$/brad62.php" />
-        <option value="$PROJECT_DIR$/bmain.php" />
         <option value="$PROJECT_DIR$/addProduct.php" />
+        <option value="$PROJECT_DIR$/showPImage.php" />
+        <option value="$PROJECT_DIR$/bmain.php" />
       </list>
     </option>
   </component>
@@ -191,6 +183,11 @@
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="pimgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +237,7 @@
       <workItem from="1556931122707" duration="24826000" />
       <workItem from="1557017685487" duration="24441000" />
       <workItem from="1557536122870" duration="21089000" />
-      <workItem from="1558140112220" duration="12802000" />
+      <workItem from="1558140112220" duration="16057000" />
     </task>
     <task id="LOCAL-00001" summary="201904271200">
       <created>1556337637718</created>
@@ -571,11 +568,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558156882035</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="2019051806">
+      <created>1558157341407</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1558157341407</updated>
+    </task>
+    <task id="LOCAL-00049" summary="2019051807">
+      <created>1558158182577</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1558158182577</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126373000" />
+    <option name="totallyTimeSpent" value="129628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -607,8 +618,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="201905041017" />
-    <MESSAGE value="201905041028" />
     <MESSAGE value="201905041200" />
     <MESSAGE value="201905041401" />
     <MESSAGE value="201905041415" />
@@ -632,16 +641,11 @@
     <MESSAGE value="2019051803" />
     <MESSAGE value="2019051804" />
     <MESSAGE value="2019051805" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019051805" />
+    <MESSAGE value="2019051806" />
+    <MESSAGE value="2019051807" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019051807" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brad37.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mydir/file3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -965,17 +969,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bmain.php">
+    <entry file="file://$PROJECT_DIR$/addProduct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="492">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addProduct.php">
+    <entry file="file://$PROJECT_DIR$/showPImage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="174">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="46" column="86" selection-start-line="46" selection-start-column="86" selection-end-line="46" selection-end-column="86" />
         </state>
       </provider>
     </entry>
