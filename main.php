@@ -32,7 +32,10 @@ Welcome, <?php echo $member->name; ?>
         function addProduct(pid) {
             var num = $('#num_' + pid).val();
             $.get("addCart.php?pid=" + pid + "&num=" + num, function (data, status) {
-                alert(status);
+                if (status == 'success'){
+                    alert(data);
+                }
+
             });
         }
     </script>

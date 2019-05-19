@@ -8,3 +8,8 @@
     $pid = $_GET['pid']; $num = $_GET['num'];
     $cart->addProduct($pid, $num);
 
+    $list = $cart->getList();
+    foreach ($list as $k => $v){
+        echo "{$k} => {$v}\n";
+    }
+
