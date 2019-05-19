@@ -16,6 +16,7 @@
         $member = $result->fetch_object("Member");
         if (password_verify($passwd, $member->passwd)){
             $_SESSION['member'] = $member;
+            $_SESSION['cart'] = new Cart();
             header('Location: main.php');
         }else{
             header('Location: login.php');

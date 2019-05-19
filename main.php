@@ -7,10 +7,11 @@
 
     if (!isset($_SESSION['member'])) header('Location: login.php');
     $member = $_SESSION['member'];
+    $cart = $_SESSION['cart'];
 
     $icon = base64_encode($member->icon);
 
-    $sql = "SELECT * FROM product ORDER BY price";
+    $sql = "SELECT * FROM product ORDER BY qty";
     $result = $mysqli->query($sql);
 ?>
 Welcome, <?php echo $member->name; ?>
@@ -22,8 +23,8 @@ Welcome, <?php echo $member->name; ?>
         <th>id</th>
         <th>PNAME</th>
         <th>Price</th>
-        <th>Qty.</th>
-        <th>Del | Update | Copy</th>
+        <th>Num</th>
+        <th>Confirm</th>
     </tr>
 
     <?php
@@ -32,9 +33,10 @@ Welcome, <?php echo $member->name; ?>
         echo "<td>{$product->id}</td>";
         echo "<td><a href='showPImage.php?id={$product->id}'>{$product->pname}</a></td>";
         echo "<td>{$product->price}</td>";
-        echo "<td>{$product->qty}</td>";
+        echo "<td><input name='num'></td>";
 
         echo '<td>';
+        echo 'Update';
         echo '</td>';
 
         echo '</tr>';
