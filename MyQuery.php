@@ -20,7 +20,20 @@ class MyQuery {
         }
     }
 
-    
+    function getAllPid($where = ''){
+        $sql = "SELECT id FROM product";
+        if (strlen($where)>0){
+            $sql .= " WHERE {$where}";
+        }
+        $sql .= " ORDER BY id";
+
+        $result = $this->mysqli->query($sql);
+        $ret = [];
+        while ( $row = $result->fetch_object()){
+            $ret[] = $row->id;
+        }
+        return $ret;
+    }
 
 }
 

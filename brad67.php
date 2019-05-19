@@ -6,9 +6,13 @@
 
     $myquery = new MyQuery($mysqli);
 
-    $pname =  $myquery->getProductData(3, MyQuery::QUERY_PNAME);
-    $price =  $myquery->getProductData(3, MyQuery::QUERY_PRICE);
-    echo "{$pname} : {$price}";
+    $pids = $myquery->getAllPid("id > 10");
+
+    foreach ($pids as $pid){
+        $pname =  $myquery->getProductData($pid, MyQuery::QUERY_PNAME);
+        $price =  $myquery->getProductData($pid, MyQuery::QUERY_PRICE);
+        echo "{$pid} : {$pname} : {$price}<br />";
+    }
 
 
 ?>
