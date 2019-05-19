@@ -1,3 +1,4 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <?php
     include_once 'sql.php';
     spl_autoload_register(function ($class_name){
@@ -27,6 +28,16 @@ Welcome, <?php echo $member->name; ?>
         <th>Confirm</th>
     </tr>
 
+    <script>
+        function addProduct(pid) {
+            var num = $('#num_' + pid).val();
+            $.get("addCart.php?pid=" + pid + "&num=" + num, function (data, status) {
+                alert(status);
+            });
+        }
+    </script>
+
+
     <?php
     while ( $product = $result->fetch_object("Product") ){
         echo "<tr>";
@@ -36,14 +47,15 @@ Welcome, <?php echo $member->name; ?>
 
         $num = $cart->getItemNum($product->id);
 
-        echo "<td><input name='num' value='{$num}'></td>";
+        echo "<td><input type='number' id='num_{$product->id}' value='{$num}'></td>";
 
         echo '<td>';
-        echo 'Update';
+        echo "<input type='button' onclick='addProduct({$product->id})' value='Update'>";
         echo '</td>';
 
         echo '</tr>';
     }
     ?>
 </table>
+<a href="checkpage.php">Check</a>
 
