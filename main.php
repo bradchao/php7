@@ -33,7 +33,10 @@ Welcome, <?php echo $member->name; ?>
         echo "<td>{$product->id}</td>";
         echo "<td><a href='showPImage.php?id={$product->id}'>{$product->pname}</a></td>";
         echo "<td>{$product->price}</td>";
-        echo "<td><input name='num'></td>";
+
+        $num = $cart->getItemNum($product->id);
+
+        echo "<td><input name='num' value='{$num}'></td>";
 
         echo '<td>';
         echo 'Update';
